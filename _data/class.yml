@@ -5,29 +5,21 @@ instructor:
   office_hours: By appointment
 tas:
   -
-    name: Name1
-    email: Email1
-    office: ZZZ
-    office_hours: XYZ
-  -
-    name: Name2
-    email: email2
-    office: Office2
-    office_hours: OfficeHours2
+    name: Ko-Yun (Monica) Huang
+    email: khuang33@illinois.edu
+    office: 
+    office_hours: 
 course:
-  name: COURSENAME
-  number: COURSENUM
-  semester: SEMESTER, YEAR
-  location: LOCATION
-  time: DAYTIME
-  credit_hours: Z
+  name: Astronomy 496
+  number: ASTR496
+  semester: Spring, 2018
+  location: Astronomy Classroom
+  time: 11:00AM-12:20PM, Tue Thur
+  credit_hours: 3
 urls:
   -
-    name: Jupyterhub
-    url: https://example.com/
-  -
     name: Slack
-    url: https://example.com/
+    url: https://astr496-spr2018.slack.com/
   - 
     name: Moodle
-    url: https://example.com/
+    url: https://learn.illinois.edu/course/view.php?id=28149
