@@ -1,5 +1,6 @@
 ---
 title: Lecture 1
+layout: lecture
 slideOptions:
   transition: none
   theme: white
