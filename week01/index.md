@@ -4,8 +4,7 @@ layout: week
 
 # Week 1 - Conversational Computation
 
-This week, we covered a few important topics.  The rough outline is:
+This week, we began by covering basic introductions to Python and using some
+common Python packages.  Below are some resources.
 
- * this
- * that
- * the other
+ * [Python homepage](http://python.org/)
