@@ -36,6 +36,8 @@ https://goo.gl/jRE7i3
  * GitHub: [MatthewTurk/astr496-spr2018](https://github.com/MatthewTurk/astr496-spr2018)
  * Webpage: [matthewturk.github.io/astr496-spr2018](https://matthewturk.github.io/astr496-spr2018)
 
+---
+
 ## Slack
 
  * Team is at `astr496-spr2018.slack.com`
