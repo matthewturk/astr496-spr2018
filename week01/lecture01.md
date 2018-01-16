@@ -160,9 +160,9 @@ How do we estimate the cost of this?
 
 | | | |
 |:-|-:|-:|
-Generic setup time | $t_s$ | $1$
-Specific setup time | $t_i$ | $N$
-Specific process time | $t_p$ | $?$
+| Generic setup time | $t_s$ | $1$ |
+| Specific setup time | $t_i$ | $N$ |
+| Specific process time | $t_p$ | $?$ |
 
 ---
 
@@ -195,8 +195,10 @@ Think of things in terms of "dependencies."  What does task 1 depend on?  What d
  1. Write a bunch of code
  1. Read $N_d$ bytes of data from disk
  1. Process and display $N_d$ bytes of data
- 
+
+
 ---
+
 
 ## Example: Simulating Something
 
@@ -204,7 +206,7 @@ Think of things in terms of "dependencies."  What does task 1 depend on?  What d
  2. Generate initial conditions
  3. Simulate
  4. Analyze
- 
+
 What are the costs and dependencies here?
 
 ---
