@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Course Title
+title: Astro 496
 email: matthewturk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the course website for Course YYY during Semester ZZZ.
-baseurl: "/course-template" # the subpath of your site, e.g. /blog
+  This is the course website for Astro 496, Spring 2018
+baseurl: "/astr496-spr2018" # the subpath of your site, e.g. /blog
 url: "https://matthewturk.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  matthewturk
 
