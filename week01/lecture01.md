@@ -15,11 +15,11 @@ slideOptions:
 
 ## Basics
 
-11:00AM-12:20PM Tuesdays and Thursdays
-Matthew Turk - mjturk@illinois.edu
-Office Hours: Appointment
-TA Ko-Yun (Monica) Huang - khuang33@illinois.edu
-[matthewturk.github.io/astr496-spr2018](https://matthewturk.github.io/astr496-spr2018)
+ * 11:00AM-12:20PM Tuesdays and Thursdays
+ * Matthew Turk - mjturk@illinois.edu
+ * Office Hours: Appointment
+ * TA Ko-Yun (Monica) Huang - khuang33@illinois.edu
+ * [matthewturk.github.io/astr496-spr2018](https://matthewturk.github.io/astr496-spr2018)
 
 ---
 
@@ -35,6 +35,18 @@ https://goo.gl/jRE7i3
  * Slack: [astr496-spr2018](https://astr496-spr2018.slack.com/)
  * GitHub: [MatthewTurk/astr496-spr2018](https://github.com/MatthewTurk/astr496-spr2018)
  * Webpage: [matthewturk.github.io/astr496-spr2018](https://matthewturk.github.io/astr496-spr2018)
+
+## Slack
+
+ * Team is at `astr496-spr2018.slack.com`
+   * `#general` : General announcements
+   * `#assignments` : Help with assignments
+   * `#help` : General help with Python, Javascript, visualization, etc
+   * `#lectures` : During lectures, post links, comments, questions here
+ * Use the `@` sign appropriately: `@[person]`, `@here`, `@channel`
+ * Conduct will be held to same standards as any educational venue.
+ * Web client, standalone client and mobile devices can access this team.
+ * At the end of the semester, the team will be discontinued.
 
 ---
 
@@ -137,6 +149,14 @@ You are expected to follow along with that work.
 * Projects will be due the Thursday _following_ the conclusion of the unit.
 * You will be expected to struggle with these projects.
 * You will not be expected to complete them completely successfully.
+
+---
+
+## Plagiarism
+
+ * Plagiarism is about copying ideas.
+ * Cite all code you utilize from elsewhere.
+
 
 ---
 
