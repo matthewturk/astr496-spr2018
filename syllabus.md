@@ -5,46 +5,45 @@ title: Syllabus
 
 # Course Description
 
-Short course description here.
+This course is intended to be a broad overview of many different aspects of
+computation in astronomy.  Beginning with developing conversational
+computational abilities, we will progress to learning about image processing,
+ODE solvers, conducting simulations, using databases, and how computer
+architecture can influence speed and reliability of calculations.
 
 ## Course Overview
 
-This course is designed to give practical advice to students on
-communicating data through visualization.  This will involve a considerable
-amount of programming, and typically this programming will be done in Python.
-For the most part, our data will be quantitative and multi-dimensional.  The
-course will aim to provide both an understanding of what data visualizations
-communicate and a set of tools for constructing them yourself.
+This course is designed to provide practical, hands-on experience with
+computation as applied to astronomy and astrophysics.  This encompasses several
+different components, but will primarily focus on items related to simulations,
+data processing, visualization, and overall computational skills.  The course
+is not designed to provide detailed information about each of these topics, but
+instead to provide enough points of information to allow students to follow up
+on their own or during future research.
 
-The course will follow a common pattern within each three-hour instructional
-session.  The first 60-90 minutes will be focused on lecture, where concepts
-and tools will be introduced; typically, each class will focus on one type of
-visualization or class of visualization.  The remaining time will include
-exploration of a dataset, which may be independent or in groups, and then a
-wrap-up session at the end.
+This course will involve a considerable amount of programming as well as
+utilizing a Unix-like command line.  We will primarily use Python for in-class
+work, but will have forays into C, Fortran, and potentially C++.
+
+The course has two sections each week, one on Tuesday and one on Thursday.
+Typically, these 90-minute sections will be broken into two components: an
+initial lecture, followed by hands-on collaborative work on laptops.  During
+the lecture, concepts will be introduced that will be applied during the second
+component.
 
 Students are expected to have laptops with them, as well as access to Python
-installations, and will be encouraged to participate in class.  Homework will
-be assigned and collected utilizing GitHub Classroom in the form of Jupyter
-notebooks.
+installations, and will be encouraged to participate in class.  
 
 ## Pre- and Co-requisites
 
-None, although Python programming experience is assumed.
-
-# Course Overview
-
-The central themes of the course are:
-
-1. What are the components of an effective visualization of quantitative data?
-2. What tools and ecosystems are available for visualizing data?
-3. What systems can be put in place to generate visualizations rapidly and with
-   high-fidelity representation?
+None, although basic Python programming experience is assumed.
 
 # Course Materials
 
 There is no textbook for this course.  All course materials will be posted to
-the GitHub repository at https://github.com/UIUC-iSchool-DataViz/spring2017 .
+the GitHub repository at https://github.com/matthewturk/astr496-spr2018/ which
+will be automatically built into a website accessible at
+matthewturk.github.io/astr496-spr2018/ .
 
 As the course progresses, a list of recommended readings will be generated for
 each class.  These will be included in the course materials repository, and
@@ -53,25 +52,12 @@ suggested readings.
 
 # About your instructor
 
-Matthew Turk is an Assistant Professor at the School of Information Sciences.
-His training was in Astronomy, where he conducted simulations of the formation
-of the first stars in the Universe.  This led him to work on developing
-an analysis and visualization package for volumetric data, 
-[yt](http://yt-project.org/), which has been used for quantiative and
-qualitative visualization of data from several disciplines.
-
-# Library Resources
-| http://www.library.illinois.edu/lis/
-| lislib@library.illinois.edu 
-| Phone: (217) 300-8439
+Matthew Turk is an Assistant Professor at the School of Information Sciences
+with a joint appointment in Astronomy.
 
 # Writing and Bibliographic Style Resources
 The campus-wide Writers Workshop provides free consultations. For more
-information see <http://www.cws.illinois.edu/workshop/> The iSchool
-has a Writing Resources Moodle site
-<https://courses.ischool.illinois.edu/course/view.php?id=1705> and
-iSchool writing coaches also offer free consultations.
-
+information see <http://www.cws.illinois.edu/workshop/>.
 
 # Academic Integrity
 
@@ -181,7 +167,7 @@ assignment (or in the case of emergencies, as soon as practicable).
 Students must request an incomplete grade from the instructor. The instructor
 and student will agree on a due date for completion of coursework and the
 student must file an Incomplete Form signed by the student, the instructor, and
-the student’s academic advisor with the School’s records representative. More
+the student's academic advisor with the School's records representative. More
 information on incompletes is available here:
 <http://webdocs.ischool.illinois.edu/registration/incomplete_grade_form.pdf>
 
@@ -199,34 +185,30 @@ course outline below is subject to some flexibilty; students will be encouraged
 to provide feedback on the topics covered, particularly toward the end.  Topics
 that are of particular interest will be emphasized.
 
- * Week 1 (Jan 20): Introduction, syllabus, and examples of visualization.
-   Installation of packages and introduction to python and matplotlib.
-   (Coding assignment) 
- * Week 2 (Jan 27): Simple plotting: quantitative plots, breakdown of plot
-   components.  (Prose assignment)
- * Week 2 (Feb 3): Binning, filtering, smoothing, and multiplots. (No
-   assignment).
- * Week 4 (Feb 10): Histograms, binning, and distributions.  (Coding
-   assignment)
- * Week 5 (Feb 17): Images: color theory, colormaps, generating visualizations
-   of images and image-like quantities. (Prose assignment)
- * Week 6 (Feb 23): Quantitative and time series (Coding assignment)
- * Week 7 (Mar 2): Geospatial visualizations
- * Week 8 (Mar 10): Synthesizing multiple datasets
- * Week 9 (Mar 17): Software ecosystem around visualization
- * Week 10 (Mar 31): Network visualization
- * Week 11 (Apr 7): Statistical visualization
- * Week 12 (Apr 14): Interactive visualizations
- * Week 13 (Apr 21): Advanced topics
- * Week 14 (Apr 27): Group presentations
+ * Week 1 (Jan 16): Conversational Computation
+ * Week 2 (Jan 23): Basics of Python for Science
+ * Week 3 (Jan 30): TBA
+ * Week 4 (Feb 6): Reproducible Research
+ * Week 5 (Feb 13): Images and Observations
+ * Week 6 (Feb 20): ODE solvers
+ * Week 7 (Feb 27): Memory, Instructions, and Speed
+ * Week 8 (Mar 6): Introduction to Simulations
+ * Week 9 (Mar 13): Simulations: Particles
+ * Week 10 (Mar 20): **No Class** (Spring Break)
+ * Week 11 (Mar 27): Simulations: Grids
+ * Week 12 (Apr 3): Visualization
+ * Week 13 (Apr 10): Databases: SQL
+ * Week 14 (Apr 17): Data Storage
+ * Week 15 (Apr 24): Accelerators
+ * Week 16 (May 1): Future Directions
 
 ## Emergency response: Run, Hide, Fight
 
 Emergencies can happen anywhere and at any time. It is important that
 we take a minute to prepare for a situation in which our safety or
 even our lives could depend on our ability to react quickly. When
-we’re faced with any kind of emergency – like fire, severe weather or
-if someone is trying to hurt you – we have three options: Run, hide or
+we're faced with any kind of emergency -- like fire, severe weather or
+if someone is trying to hurt you -- we have three options: Run, hide or
 fight.
 
 
@@ -242,13 +224,13 @@ Leaving the area quickly is the best option if it is safe to do so.
 
 ### Hide
 
-When you can’t or don’t want to run, take shelter indoors.
+When you can't or don't want to run, take shelter indoors.
 
 - Take time now to learn different ways to seek shelter in your building.
 - If severe weather is imminent, go to the nearest indoor storm refuge area.
-- If someone is trying to hurt you and you can’t evacuate, get to a place
-  where you can’t be seen, lock or barricade your area, silence your
-  phone, don’t make any noise and don’t come out until you receive an
+- If someone is trying to hurt you and you can't evacuate, get to a place
+  where you can't be seen, lock or barricade your area, silence your
+  phone, don't make any noise and don't come out until you receive an
   Illini-Alert indicating it is safe to do so.
 
 ### Fight
@@ -259,7 +241,7 @@ survival.
 - Think about what kind of common items are in your area which you
   can use to defend yourself.
 - Team up with others to fight if the situation allows.
-- Mentally prepare yourself – you may be in a fight for your life.
+- Mentally prepare yourself -- you may be in a fight for your life.
 
 Please be aware of persons with disabilities who may need additional
 assistance in emergency situations.
