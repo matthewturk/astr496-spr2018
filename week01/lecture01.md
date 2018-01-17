@@ -7,9 +7,9 @@ slideOptions:
   center: false
 ---
 
-# Computing in Astronomy
-## Matthew Turk
-## Spring 2018
+# Computing in Astronomy<!-- .element: class="centered" -->
+## Matthew Turk<!-- .element: class="centered" -->
+## Spring 2018<!-- .element: class="centered" -->
 
 ---
 
