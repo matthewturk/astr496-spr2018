@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<title>reveal.js</title>
+<title>{{page.title}}</title>
 
 <link rel="stylesheet" href="/revealjs/css/reveal.css">
 <link rel="stylesheet" href="/revealjs/css/theme/white.css">
@@ -34,6 +34,13 @@
 .reveal {
   font-size: 30px;
   font-family: 'Questrial', sans-serif;
+}
+.reveal section img {
+  box-shadow: none;
+  border: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
   </head>
@@ -71,7 +78,8 @@
 			68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
 		},
         center: false,
-        transition: 'none'
+        transition: 'none',
+        backgroundTransition: 'none'
     });
 </script>
   </body>
