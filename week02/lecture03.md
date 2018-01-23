@@ -98,7 +98,7 @@ array([18374686479671623680], dtype=uint64)
 >>> a = np.random.random(5)
 >>> a > 0.7
 array([False,  True,  True, False,  True], dtype=bool)
->>> [a>0.7]
+>>> a[a>0.7]
 array([ 0.96330603,  0.95319968,  0.83365543])
 >>> b = np.array([5, 9, 1, 4, 3])
 >>> b[a>0.7]
