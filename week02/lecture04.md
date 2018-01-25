@@ -139,7 +139,6 @@ plt.plot([1,2,3,4], [5,6,7,8], color = 'b', linestyle = '--',
 ```python
 plt.plot([1,2,3,4], [5,6,7,8], color = 'b', linestyle = '',
             marker = 'o', markersize = 10.0) 
-            plt.savefig("images/img3.png")
 ```
 
 ![](images/img3.png)
@@ -180,10 +179,12 @@ true, as we attempt to draw out new information.
 
 ```python
 import ipywidgets
-@ipywidgets.interact( bins = [32, 64, 128] )
+
 xy = np.random.normal(size=(100000,2), loc = [0.5, 0.5])
+
+@ipywidgets.interact( bins = [32, 64, 128] )
 def make_hexbin(bins):
-    plt.hexbin(xy[:,0], xy[:,1], bins = bins)
+    plt.hexbin(xy[:,0], xy[:,1], gridsize = bins)
 ```
 
 ---
