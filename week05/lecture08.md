@@ -33,15 +33,15 @@ and functions associated with them.
 class Door:
     def __init__(self, locked = False):
         self.locked = locked
-        self.open = False
+        self.is_open = False
 
     def open(self):
-        if self.open:
+        if self.is_open:
             return True
         elif self.locked:
             return False
         else:
-            self.open = True
+            self.is_open = True
             return True
 ```
 
