@@ -2,7 +2,6 @@
 layout: week
 ---
 
-# Week 6 - Intro to Simulations
+# Week 7 - Particles
 
-This week we learned some basics about simulations, how we might use them, and
-how we might analyze them.
+This week we worked on integrating particles and determining their motions.
