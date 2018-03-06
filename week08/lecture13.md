@@ -169,7 +169,7 @@ This is not the same as learning C in detail.
 ## C: First Program
 
 ```c
-#include "stdio.h"
+#include <stdio.h>
 
 int main(int argc, char** argv) {
   fprintf(stderr, "Hello there.\n");
@@ -214,7 +214,7 @@ the linker to figure out.
 When we type:
 
 ```c
-#include "stdio.h"
+#include <stdio.h>
 ```
 
 the _preprocessor_ knows that it needs to find a file called `stdio.h` and
@@ -234,7 +234,7 @@ In C, we will be thinking of calling a series of functions as our fundamental
 navigation operation.
 
 ```
-#include "stdio.h"
+#include <stdio.h>
 
 void some_function() {
   fprintf(stderr, "Hello!\n");
@@ -344,4 +344,23 @@ pointer to the region.
 ```c
 float *my_variables = malloc(sizeof(float) * 64);
 free(my_variables);
+```
+
+---
+
+## Showing Arguments
+
+This program will output the number of arguments, then the arguments
+themselves.
+
+```c
+#include <stdio.h>
+
+int main(int argc, char** argv) {
+  fprintf(stderr, "%d\n", argc);
+  for (int i = 0; i < argc ; i++ ) {
+    fprintf(stderr, "%s\n", argv[i]);
+  }
+  return 0;
+}
 ```
