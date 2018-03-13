@@ -103,7 +103,7 @@ do the entire process.
 
 ## Amdahl's Law
 
-$\lim\_{s\rightarrow \infty}$ S = 1/(1 - p) $
+$\lim\_{s\rightarrow \infty} S = \frac{1}{1 - p}$
 
 In the theoretical limit of infinite parallelism, we can only ever achieve a
 speedup that is limited by the part of the program that *can't* be sped up.
