@@ -71,7 +71,8 @@ Identify a linking length $L$ that we use to connect sets.
 
 ---
 
-<!-- .slide: data-background-image="images/structures1.jpg" data-background-size="contain" -->
+<!-- .slide: data-background-image="images/IMG_20131013_143232.jpg" data-background-size="contain" -->
+
 
 ---
 
