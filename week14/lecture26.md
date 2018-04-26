@@ -40,7 +40,7 @@ slideOptions:
 The simplest form of the radiation transport equation, in the presence of
 emission and absorption but the absence of scattering, can be written as such:
 
-$ \frac{dI\_{\nu}}{ds} = j\_{\nu} - \alpha\_{\nu}ds $
+$ \frac{dI\_{\nu}}{ds} = j\_{\nu} - \alpha\_{\nu}I\_{\nu}ds $
 
 The change in the intensity at a wavelength is only related to the local
 emission ($j\_{\nu}$) and absorption ($\alpha\_{\nu}$) and the path length it
