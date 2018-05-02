@@ -1,5 +1,5 @@
 ---
-title: Computational Workflow on a Chromebook
+title: Chromebooks for Development
 layout: lecture
 slideOptions:
   transition: none
@@ -26,7 +26,7 @@ slideOptions:
 
 Things are going to change soon.
 
-[`crostini`](https://www.reddit.com/r/Crostini/)
+[crostini](https://www.reddit.com/r/Crostini/)
 
 It is likely this will change the story completely.
 

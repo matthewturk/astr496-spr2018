@@ -1,5 +1,5 @@
 ---
-title: Lecture 26
+title: Lecture 27
 layout: lecture
 slideOptions:
   transition: none
